@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="pt-BR"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Cardoso Rações | Nutrição Animal com Carinho</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&amp;family=Fira+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-container-high": "#e8e8e5",
+                        "on-primary": "#ffffff",
+                        "on-tertiary": "#ffffff",
+                        "on-primary-fixed-variant": "#274e3d",
+                        "primary-fixed-dim": "#a5d0b9",
+                        "surface-dim": "#dadad7",
+                        "on-secondary-fixed": "#3e0020",
+                        "on-error-container": "#93000a",
+                        "primary": "#012d1d",
+                        "on-tertiary-fixed-variant": "#673a39",
+                        "inverse-primary": "#a5d0b9",
+                        "on-background": "#1a1c1a",
+                        "on-surface": "#1a1c1a",
+                        "tertiary-container": "#5a302f",
+                        "inverse-on-surface": "#f0f1ee",
+                        "surface-container-low": "#f3f4f1",
+                        "outline": "#717973",
+                        "primary-fixed": "#c1ecd4",
+                        "outline-variant": "#c1c8c2",
+                        "primary-container": "#1b4332",
+                        "surface-bright": "#f9faf6",
+                        "tertiary": "#401b1b",
+                        "surface-container-lowest": "#ffffff",
+                        "on-secondary": "#ffffff",
+                        "surface": "#f9faf6",
+                        "on-surface-variant": "#414844",
+                        "secondary-fixed": "#ffd9e4",
+                        "surface-tint": "#3f6653",
+                        "error": "#ba1a1a",
+                        "on-error": "#ffffff",
+                        "on-secondary-container": "#600036",
+                        "error-container": "#ffdad6",
+                        "background": "#f9faf6",
+                        "secondary-fixed-dim": "#ffb0cc",
+                        "surface-container": "#eeeeeb",
+                        "on-tertiary-fixed": "#331111",
+                        "surface-container-highest": "#e2e3e0",
+                        "tertiary-fixed": "#ffdad8",
+                        "secondary-container": "#ff55a4",
+                        "surface-variant": "#e2e3e0",
+                        "on-primary-container": "#86af99",
+                        "inverse-surface": "#2f312f",
+                        "on-tertiary-container": "#d29895",
+                        "secondary": "#b5106b",
+                        "on-primary-fixed": "#002114",
+                        "on-secondary-fixed-variant": "#8d0051",
+                        "tertiary-fixed-dim": "#f5b7b4"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "margin-mobile": "16px",
+                        "lg": "48px",
+                        "base": "8px",
+                        "gutter": "24px",
+                        "container-max": "1200px",
+                        "xl": "80px",
+                        "md": "24px",
+                        "sm": "12px",
+                        "xs": "4px"
+                    },
+                    "fontFamily": {
+                        "headline-md": ["Be Vietnam Pro"],
+                        "whatsapp-label": ["Fira Sans"],
+                        "body-lg": ["Fira Sans"],
+                        "headline-lg-mobile": ["Be Vietnam Pro"],
+                        "headline-lg": ["Be Vietnam Pro"],
+                        "display": ["Be Vietnam Pro"],
+                        "body-md": ["Fira Sans"],
+                        "label-md": ["Fira Sans"]
+                    },
+                    "fontSize": {
+                        "headline-md": ["24px", {"lineHeight": "1.3", "fontWeight": "600"}],
+                        "whatsapp-label": ["16px", {"lineHeight": "1.2", "fontWeight": "600"}],
+                        "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                        "headline-lg-mobile": ["28px", {"lineHeight": "1.2", "fontWeight": "600"}],
+                        "headline-lg": ["32px", {"lineHeight": "1.2", "fontWeight": "600"}],
+                        "display": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                        "label-md": ["14px", {"lineHeight": "1.2", "letterSpacing": "0.05em", "fontWeight": "500"}]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .organic-noise {
+            position: relative;
+        }
+        .organic-noise::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-image: url("https://www.transparenttextures.com/patterns/felt.png");
+            opacity: 0.03;
+            pointer-events: none;
+            z-index: 1;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        .shadow-organic {
+            box-shadow: 0px 10px 30px rgba(27, 67, 50, 0.08);
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Cardoso Rações",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuC9zbJ_gOkYaLxEQA7U8mfAGYdeG-lYI72VmfNw7Dq3iI01btZ7Ezj0chnFoqGQ7tIe-bjtYdwWiTb2P6_6BCfjRsnzFPh3lxCshyMMEsow3v2kArTl7tKB6JlNRk5uCqCnzwEoHjUC5CfrX3vgSGLvSGIDMq07e8i1QjAXDvG8O8kvEECZeDhBn0pu5d80yLx1TtFIKUMhOUWUSVi2OtAczxbylrJ5eLWUS5jTnrZ70lqJ0yS-xMhATWtf9iGdrRj-WfqMEQHI7Jfs",
+      "@id": "",
+      "url": "https://cardosoracoes.com.br",
+      "telephone": "+5521994946122",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Rua Principal, 123",
+        "addressLocality": "Rio de Janeiro",
+        "addressRegion": "RJ",
+        "postalCode": "20000-000",
+        "addressCountry": "BR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -22.9068,
+        "longitude": -43.1729
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "opens": "08:00",
+        "closes": "19:00"
+      },
+      "sameAs": [
+        "https://wa.me/5521994946122"
+      ]
+    }
+    </script>
+</head>
+<body class="bg-background text-on-surface font-body-md overflow-x-hidden">
+<!-- TopAppBar -->
+<header class="sticky top-0 w-full bg-surface/90 backdrop-blur-md z-50 shadow-sm">
+<div class="flex justify-between items-center px-md py-sm max-w-container-max mx-auto">
+<div class="flex items-center gap-xs cursor-pointer active:scale-95 group">
+<span class="material-symbols-outlined text-primary text-headline-lg" style="font-variation-settings: 'FILL' 1;">pets</span>
+<h1 class="font-headline-lg text-headline-lg text-primary tracking-tight">Cardoso Rações</h1>
+</div>
+<nav class="hidden md:flex gap-md items-center">
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-secondary transition-colors" href="#loja">Nossa Loja</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-secondary transition-colors" href="#destaques">Destaques</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-secondary transition-colors" href="#faq">Dúvidas</a>
+<a class="bg-primary text-on-primary px-md py-xs rounded-full font-whatsapp-label text-whatsapp-label hover:bg-primary-container transition-all flex items-center gap-xs" href="https://wa.me/5521994946122" target="_blank">
+                    Conversar agora
+                </a>
+</nav>
+<button class="md:hidden text-primary">
+<span class="material-symbols-outlined text-3xl">menu</span>
+</button>
+</div>
+</header>
+<main>
+<!-- Hero Section -->
+<section class="relative min-h-[85vh] flex items-center overflow-hidden bg-surface py-xl">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-md grid md:grid-cols-2 gap-xl items-center relative z-10">
+<div class="space-y-md">
+<div class="inline-flex items-center gap-xs px-sm py-1 bg-secondary-fixed/30 text-on-secondary-fixed-variant rounded-full font-label-md text-label-md">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+                        Boutique de Nutrição Animal
+                    </div>
+<h2 class="font-display text-display md:text-[56px] text-primary leading-tight">
+                        Nutrição e cuidado para quem você ama.
+                    </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-[500px]">
+                        Oferecemos as melhores rações premium e um atendimento que entende as necessidades do seu pet como se fosse nosso.
+                    </p>
+<div class="flex flex-col sm:flex-row gap-gutter pt-base">
+<a class="flex items-center justify-center gap-sm bg-[#25D366] text-white px-lg py-md rounded-xl font-whatsapp-label text-[20px] shadow-organic hover:scale-105 active:scale-95 transition-all" href="https://wa.me/5521994946122" target="_blank">
+<img alt="WhatsApp Icon" class="w-6 h-6 invert brightness-200" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBuTvmduCbheRkbdxuzRnexeaIsyrPvT-ZgUFqrniUzUDfKJ4FPMv3r6kjvKbC-MnXqdJzxEF-Yc4ZoGNzhp-zO2UenuOOvyi4qTv24rvGWzpi1O-CXBGGRpL60EIGwrKv81dzDmLcoCDlCWmsw6r2RXOGqiCyCRrB8AXUWA32BeT4sdKducyVvYAVAcDFN2_ZZz-fNPpT9GjIG1uwJMhxIOvdlxXFkJ-1igCJkBsF7D-VOjDOGIzvKkNIuMQH_0tIYxCIUlD0H5-Hl"/>
+                            Pedir pelo WhatsApp
+                        </a>
+<a class="flex items-center justify-center gap-sm border-2 border-primary text-primary px-lg py-md rounded-xl font-label-md text-label-md hover:bg-primary/5 transition-all" href="#loja">
+                            Ver Nossa Loja
+                        </a>
+</div>
+<div class="flex items-center gap-md pt-md">
+<div class="flex -space-x-3">
+<div class="w-10 h-10 rounded-full border-2 border-surface bg-primary-fixed flex items-center justify-center font-bold text-xs text-primary">CR</div>
+<div class="w-10 h-10 rounded-full border-2 border-surface bg-secondary-fixed flex items-center justify-center font-bold text-xs text-secondary">PT</div>
+<div class="w-10 h-10 rounded-full border-2 border-surface bg-tertiary-fixed flex items-center justify-center font-bold text-xs text-on-tertiary-container">+2k</div>
+</div>
+<span class="font-label-md text-label-md text-on-surface-variant">Clientes felizes na região</span>
+</div>
+</div>
+<div class="relative flex justify-center items-center">
+<div class="absolute -z-10 w-[120%] h-[120%] bg-primary/5 rounded-full blur-3xl scale-110"></div>
+<div class="relative rounded-[48px] overflow-hidden shadow-2xl rotate-2 hover:rotate-0 transition-transform duration-500">
+<img alt="Golden Retriever com saco de ração natural" class="w-full aspect-[4/5] object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDv41A5nIrFr7C9VBp5CJ90Su23GgqFrlD3gU3GsRFtwBmkP2lxBd2ZZms1lHtADVz8NtmUVG-uT7SEsTdHBl22obhrqhVjcdYsh104bIkiynnnYTuml8pRJq5mgpImZ5v26iTQTMXB2wb0SMD_cbeavkDJ4YisS0r1_D6xP4nnBr2-ckbc1TZ7Xz3bAD-dIygNkv9j-9L4bwjqXk5jY1_acZu8VRd2JYFG5ZA3xgNdUR_lLAXysJYwdXqwZsBM6al3ngt9tqHbmH3X"/>
+</div>
+<!-- Organic Badge -->
+<div class="absolute -bottom-6 -left-6 bg-surface-bright p-md rounded-2xl shadow-organic border border-primary/10 max-w-[180px] -rotate-3">
+<span class="material-symbols-outlined text-primary mb-xs" style="font-variation-settings: 'FILL' 1;">eco</span>
+<p class="font-label-md text-label-md text-primary leading-tight">Ingredientes Selecionados e Orgânicos</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Destaques (Features) -->
+<section class="py-xl bg-surface-container-low organic-noise" id="destaques">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-md">
+<div class="text-center max-w-[700px] mx-auto mb-xl">
+<h3 class="font-headline-lg text-headline-lg text-primary mb-md">Diferenciais que fazem a diferença</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Não somos apenas uma loja de ração. Somos parceiros na longevidade e felicidade do seu melhor amigo.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Feature 1 -->
+<article class="bg-surface-bright p-lg rounded-3xl shadow-organic flex flex-col items-start gap-md group hover:bg-primary transition-colors duration-500">
+<div class="p-sm bg-primary-fixed rounded-2xl group-hover:bg-primary-container transition-colors">
+<span class="material-symbols-outlined text-primary group-hover:text-primary-fixed text-4xl">verified_user</span>
+</div>
+<div>
+<h4 class="font-headline-md text-headline-md text-primary mb-sm group-hover:text-on-primary">Qualidade Comprovada</h4>
+<p class="font-body-md text-body-md text-on-surface-variant group-hover:text-on-primary/80">Trabalhamos apenas com marcas premium e super premium que possuem selos de certificação nutricional.</p>
+</div>
+</article>
+<!-- Feature 2 -->
+<article class="bg-surface-bright p-lg rounded-3xl shadow-organic flex flex-col items-start gap-md group hover:bg-primary transition-colors duration-500">
+<div class="p-sm bg-secondary-fixed rounded-2xl group-hover:bg-secondary-container transition-colors">
+<span class="material-symbols-outlined text-secondary group-hover:text-on-secondary text-4xl">support_agent</span>
+</div>
+<div>
+<h4 class="font-headline-md text-headline-md text-primary mb-sm group-hover:text-on-primary">Atendimento Personalizado</h4>
+<p class="font-body-md text-body-md text-on-surface-variant group-hover:text-on-primary/80">Nossa equipe é treinada para orientar a melhor escolha baseada na raça, idade e saúde do seu animal.</p>
+</div>
+</article>
+<!-- Feature 3 -->
+<article class="bg-surface-bright p-lg rounded-3xl shadow-organic flex flex-col items-start gap-md group hover:bg-primary transition-colors duration-500">
+<div class="p-sm bg-primary-fixed rounded-2xl group-hover:bg-primary-container transition-colors">
+<span class="material-symbols-outlined text-primary group-hover:text-primary-fixed text-4xl">local_shipping</span>
+</div>
+<div>
+<h4 class="font-headline-md text-headline-md text-primary mb-sm group-hover:text-on-primary">Entrega Rápida</h4>
+<p class="font-body-md text-body-md text-on-surface-variant group-hover:text-on-primary/80">Entrega local ágil no mesmo dia para garantir que o pratinho nunca fique vazio.</p>
+</div>
+</article>
+</div>
+</div>
+</section>
+<!-- Nossa Loja -->
+<section class="py-xl bg-surface" id="loja">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-md grid lg:grid-cols-12 gap-xl items-center">
+<div class="lg:col-span-7 rounded-[40px] overflow-hidden shadow-2xl relative aspect-video lg:aspect-auto lg:h-[500px]">
+<img alt="Interior moderno e acolhedor da Cardoso Rações" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC9zbJ_gOkYaLxEQA7U8mfAGYdeG-lYI72VmfNw7Dq3iI01btZ7Ezj0chnFoqGQ7tIe-bjtYdwWiTb2P6_6BCfjRsnzFPh3lxCshyMMEsow3v2kArTl7tKB6JlNRk5uCqCnzwEoHjUC5CfrX3vgSGLvSGIDMq07e8i1QjAXDvG8O8kvEECZeDhBn0pu5d80yLx1TtFIKUMhOUWUSVi2OtAczxbylrJ5eLWUS5jTnrZ70lqJ0yS-xMhATWtf9iGdrRj-WfqMEQHI7Jfs"/>
+<div class="absolute bottom-6 right-6 glass-card px-md py-sm rounded-2xl flex items-center gap-base">
+<span class="material-symbols-outlined text-primary">location_on</span>
+<span class="font-label-md text-label-md text-primary">Venha nos visitar hoje!</span>
+</div>
+</div>
+<div class="lg:col-span-5 space-y-md">
+<h3 class="font-headline-lg text-headline-lg text-primary">Excelência Local em Cada Detalhe</h3>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+                        Localizada no coração do bairro, a Cardoso Rações nasceu de um sonho: criar um espaço onde a saúde animal é levada a sério, mas com o calor de uma loja de vizinhança. 
+                    </p>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                        Nossa loja física oferece um ambiente climatizado, organizado e acolhedor, onde você pode conhecer as marcas de perto e tirar todas as suas dúvidas com nossos consultores.
+                    </p>
+<div class="pt-sm space-y-sm">
+<div class="flex items-center gap-sm">
+<div class="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary text-xl">schedule</span>
+</div>
+<span class="font-body-md text-body-md">Segunda a Sábado: 08:00 - 19:00</span>
+</div>
+<div class="flex items-center gap-sm">
+<div class="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary text-xl">map</span>
+</div>
+<span class="font-body-md text-body-md" data-location="Rio de Janeiro">Atendimento presencial no Rio de Janeiro</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- FAQ Section -->
+<section class="py-xl bg-surface-container-low" id="faq">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-md">
+<h3 class="font-headline-lg text-headline-lg text-center text-primary mb-xl">Perguntas Frequentes</h3>
+<div class="max-w-3xl mx-auto space-y-gutter">
+<!-- FAQ 1 -->
+<details class="group bg-surface-bright rounded-2xl p-md shadow-sm open:shadow-organic transition-all">
+<summary class="list-none flex justify-between items-center cursor-pointer font-headline-md text-headline-md text-primary">
+                            Quais marcas de ração vocês trabalham?
+                            <span class="material-symbols-outlined group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<p class="pt-md font-body-md text-body-md text-on-surface-variant border-t border-outline-variant mt-md">
+                            Trabalhamos com marcas líderes do mercado como Royal Canin, PremieRpet, Hills, Golden e opções naturais selecionadas. Se busca algo específico, consulte-nos pelo WhatsApp!
+                        </p>
+</details>
+<!-- FAQ 2 -->
+<details class="group bg-surface-bright rounded-2xl p-md shadow-sm open:shadow-organic transition-all">
+<summary class="list-none flex justify-between items-center cursor-pointer font-headline-md text-headline-md text-primary">
+                            Como funciona a entrega rápida?
+                            <span class="material-symbols-outlined group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<p class="pt-md font-body-md text-body-md text-on-surface-variant border-t border-outline-variant mt-md">
+                            Para pedidos realizados até as 14h, garantimos a entrega no mesmo dia para nossa região de cobertura. Consulte o valor do frete e disponibilidade para seu bairro.
+                        </p>
+</details>
+<!-- FAQ 3 -->
+<details class="group bg-surface-bright rounded-2xl p-md shadow-sm open:shadow-organic transition-all">
+<summary class="list-none flex justify-between items-center cursor-pointer font-headline-md text-headline-md text-primary">
+                            Posso trocar o produto se o pet não aceitar?
+                            <span class="material-symbols-outlined group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<p class="pt-md font-body-md text-body-md text-on-surface-variant border-t border-outline-variant mt-md">
+                            Sim! Muitas marcas que trabalhamos oferecem o programa "Satisfação Garantida". Mantendo a embalagem original e pelo menos 50% do produto, realizamos a troca ou reembolso conforme as regras do fabricante.
+                        </p>
+</details>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="py-xl relative">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-md text-center">
+<div class="bg-primary p-xl rounded-[40px] text-on-primary relative overflow-hidden shadow-2xl">
+<div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,_var(--tw-gradient-stops))] from-primary-container via-primary to-primary opacity-50"></div>
+<div class="relative z-10 max-w-[600px] mx-auto space-y-md">
+<h3 class="font-display text-headline-lg md:text-[42px]">Garanta a melhor nutrição para seu pet agora.</h3>
+<p class="font-body-lg text-body-lg text-primary-fixed opacity-90">Chame no WhatsApp, peça sugestões ou faça seu pedido em menos de 2 minutos.</p>
+<div class="pt-md">
+<a class="inline-flex items-center gap-sm bg-[#25D366] text-white px-xl py-lg rounded-2xl font-whatsapp-label text-[24px] shadow-lg hover:scale-105 active:scale-95 transition-all" href="https://wa.me/5521994946122" target="_blank">
+<img alt="WhatsApp Icon" class="w-8 h-8 invert brightness-200" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBwCEQe33qRObO1z3AsgYTWVP7WXW0MyTTJxRdm8nOafK3aViPqCfJCqQm8YApyIAfi-FxLhvbo2fgEj2I3R1DT9T7v7f1jVIxQMJcvmypBoqMdMW0g4QlZZrbppHBpVfH9bVRx8hyIJdz3LWjoJJm6MdRPrTPPugsNVrhzBdJIQsjBErxcfh5A-kJBPzunbQYpHPXKPyxFjSOzwQhRk8lsPTRtJ2a_T3lgTC9MUh57n5FgD5L82RJySbZ-F13lJAhHa4Hl5O5QVCCc"/>
+                                Chamar no WhatsApp
+                            </a>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-primary text-on-primary w-full rounded-t-xl mt-xl overflow-hidden">
+<div class="max-w-container-max mx-auto px-lg py-lg flex flex-col md:flex-row justify-between items-start gap-gutter">
+<div class="space-y-sm max-w-[300px]">
+<div class="flex items-center gap-xs">
+<span class="material-symbols-outlined text-headline-md" style="font-variation-settings: 'FILL' 1;">pets</span>
+<h2 class="font-headline-md text-headline-md">Cardoso Rações</h2>
+</div>
+<p class="font-body-md text-body-md text-on-primary/80">Referência em nutrição animal e cuidado personalizado para o seu pet.</p>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-2 gap-xl">
+<div class="space-y-xs">
+<p class="font-label-md text-label-md text-on-primary/60 mb-sm">Links Úteis</p>
+<a class="block font-body-md text-body-md text-on-primary/80 hover:text-secondary-fixed transition-all" href="#loja">Nossa Loja</a>
+<a class="block font-body-md text-body-md text-on-primary/80 hover:text-secondary-fixed transition-all" href="#destaques">Destaques</a>
+<a class="block font-body-md text-body-md text-on-primary/80 hover:text-secondary-fixed transition-all" href="#faq">Dúvidas</a>
+</div>
+<div class="space-y-xs">
+<p class="font-label-md text-label-md text-on-primary/60 mb-sm">Contato</p>
+<p class="font-body-md text-body-md text-on-primary/80 flex items-center gap-xs">
+<span class="material-symbols-outlined text-sm">phone</span> (21) 99494-6122
+                    </p>
+<p class="font-body-md text-body-md text-on-primary/80 flex items-center gap-xs">
+<span class="material-symbols-outlined text-sm">email</span> contato@cardosoracoes.com
+                    </p>
+</div>
+</div>
+</div>
+<div class="max-w-container-max mx-auto px-lg py-sm border-t border-on-primary/10 text-center">
+<p class="font-body-md text-[14px] text-on-primary/60">© 2024 Cardoso Rações - Nutrição Animal com Carinho. Todos os direitos reservados.</p>
+</div>
+</footer>
+<!-- WhatsApp Floating FAB (Mobile Focused) -->
+<a class="fixed bottom-6 right-6 z-[100] bg-[#25D366] text-white w-16 h-16 rounded-full shadow-2xl flex items-center justify-center hover:scale-110 active:scale-95 transition-all md:hidden animate-bounce" href="https://wa.me/5521994946122" target="_blank">
+<img alt="WhatsApp" class="w-8 h-8 invert brightness-200" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAmu2OaaSG_f-qq3TIQSZNBd2OAlQx3pFxE_EdEIrJe9yaHqKApcUC4puswmRy2Y4-M1fZWgtHFpqZb08y6Guabk1bSC3xxKlkV1Oth_55yFtszd_8_zdmfo7XnFcW2ebxuqkoI5ROT8S5Wegrn5dzIk2yLEuncLUPnT6MwIl2AGhYTLXXb9HHvOfDiDMuS3egSZL9UauPg2un-Prf4I0pcO8v8t_wLF-vWZIlXLiQp-0ulweUXvjReb2fStQNMX5oxI7m_YUMt9A5g"/>
+</a>
+<script>
+        // Smooth reveal animations on scroll
+        document.addEventListener('DOMContentLoaded', () => {
+            const observerOptions = {
+                threshold: 0.1
+            };
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('opacity-100', 'translate-y-0');
+                        entry.target.classList.remove('opacity-0', 'translate-y-10');
+                    }
+                });
+            }, observerOptions);
+
+            document.querySelectorAll('section, article').forEach(el => {
+                el.classList.add('transition-all', 'duration-700', 'opacity-0', 'translate-y-10');
+                observer.observe(el);
+            });
+        });
+    </script>
+</body></html>
